@@ -2,8 +2,8 @@
 CPTS489M2023 Javascript Demos
 
 ## Plan for Jan 30th Lecture
-- [ ] History of JavaScript
-- [ ] Simple Demo
-    - [ ] Helloworld!
-    - [ ] email validation
+- [x] History of JavaScript
+- [x] Simple Demo
+    - [x] Helloworld!
+    - [x] email validation
 - [ ] intro to Nodes
