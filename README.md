@@ -9,8 +9,8 @@ CPTS489M2023 Javascript Demos
 - [ ] intro to Node
 
 ## Plan for Feb 1st Lecture
-- [ ] DOM tree visualization
-- [ ] innerHTML instead of alert
-- [ ] Motivation for Node
-- [ ] Node helloworld
-- [ ] Node filesystem
+- [x] DOM tree visualization
+- [x] innerHTML instead of alert
+- [x] Motivation for Node
+- [x] Node helloworld
+- [x] Node filesystem
