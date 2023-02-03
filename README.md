@@ -17,25 +17,25 @@ CPTS489M2023 Javascript Demos
 
 ## Plan for Feb 3rd Lecture
 - JavaScript the Programming Language
-    - [ ] ECMAScript 2015 aka ES6 (and later)
-    - [ ] Variables in JavaScript
-        - [ ] let vs const
+    - [x] ECMAScript 2015 aka ES6 (and later)
+    - [x] Variables in JavaScript
+        - [x] let vs const
     - Types in JavaScript
         - Primitive Types
-            - [ ] Numbers (and BigInt)
-            - [ ] Boolean
-            - [ ] String
-            - [ ] Special (Null, Undefined)
-            - [ ] Symbol
+            - [x] Numbers (and BigInt)
+            - [x] Boolean
+            - [x] String
+            - [x] Special (Null, Undefined)
+            - [x] Symbol
         - Reference Types
-            - [ ] Arrays
-            - [ ] Objects
+            - [x] Arrays
+            - [x] Objects
                 - [ ] Revisit null vs undefined
             - [ ] functions (thank you scheme!)
-            - [ ] Why do we call them reference? (python tutor)
+            - [x] Why do we call them reference? (python tutor)
                 -  [ ] Copy by value vs reference
         - (Quick) JavaScript auto-boxing and wrapper objects
-            - String substr, length, split
+            - [ ] String substr, length, split
         - JavaScript expressions
             - [ ] What is an expression?
             - Operators
