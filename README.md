@@ -30,9 +30,12 @@ CPTS489M2023 Javascript Demos
         - Reference Types
             - [ ] Arrays
             - [ ] Objects
+                - [ ] Revisit null vs undefined
             - [ ] functions (thank you scheme!)
             - [ ] Why do we call them reference? (python tutor)
                 -  [ ] Copy by value vs reference
+        - (Quick) JavaScript auto-boxing and wrapper objects
+            - String substr, length, split
         - JavaScript expressions
             - [ ] What is an expression?
             - Operators
