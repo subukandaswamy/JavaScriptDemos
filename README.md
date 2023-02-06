@@ -48,15 +48,15 @@ CPTS489M2023 Javascript Demos
 - JavaScript the Programming Language (continued)
     - Types in JavaScript
         - Reference Types
-            - [ ] Objects - Revisit null vs undefined
-                - [ ] methods
-            - [ ] Why do we call them reference? (python tutor)
-                -  [ ] Copy by value vs reference using function call
+            - [x] Objects - Revisit null vs undefined
+                - [x] methods
+            - [x] Why do we call them reference? (python tutor)
+                -  [x] Copy by value vs reference using function call
         - JavaScript auto-boxing and wrapper objects
-            - [ ] String substr, length, split
+            - [x] String substr, length, split
         - JavaScript expressions
-            - [ ] What is an expression?
-                - [ ] example: conditional vs ternary operator
+            - [x] What is an expression?
+                - [x] example: conditional vs ternary operator
             - Operators
                 - [ ] arithmetic operators: addition, subtraction, multiplication, division and modulo operator
                 - [ ] equality and relational operators (<, <=, >, >=)
