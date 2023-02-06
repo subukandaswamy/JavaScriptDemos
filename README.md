@@ -43,3 +43,5 @@ CPTS489M2023 Javascript Demos
                 - [ ] equality and relational operators (<, <=, >, >=)
                 - [ ] JavaScript loose typing
                     - [ ] Strict equality vs loose equality
+
+## Plan for Feb 6th
