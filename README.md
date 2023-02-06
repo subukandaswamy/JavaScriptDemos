@@ -45,3 +45,20 @@ CPTS489M2023 Javascript Demos
                     - [ ] Strict equality vs loose equality
 
 ## Plan for Feb 6th
+- JavaScript the Programming Language (continued)
+    - Types in JavaScript
+        - Reference Types
+            - [ ] Objects - Revisit null vs undefined
+                - [ ] methods
+            - [ ] Why do we call them reference? (python tutor)
+                -  [ ] Copy by value vs reference using function call
+        - JavaScript auto-boxing and wrapper objects
+            - [ ] String substr, length, split
+        - JavaScript expressions
+            - [ ] What is an expression?
+                - [ ] example: conditional vs ternary operator
+            - Operators
+                - [ ] arithmetic operators: addition, subtraction, multiplication, division and modulo operator
+                - [ ] equality and relational operators (<, <=, >, >=)
+                - [ ] JavaScript loose typing
+                    - [ ] Strict equality vs loose equality
