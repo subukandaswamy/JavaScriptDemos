@@ -1,48 +1,48 @@
+
+const add = function (x,y) {
+    return x + y
+}
+
+const add1 = (x,y) => x + y
+
+const arr = [2,3,5,7]
+
+// for(a of arr){
+// if(a==3) continue;
+// console.log(a);
+// }
+
+// let i=0
+
 let o = {
-    v1: 10,
-    v2: 20
+    a: 1,
+    b: 2
 }
 
-let a = 10
-let b = 20
-
-function add1(x, y) {
-    let res = x + y
-    return res
+with(o){
+    console.log(a, b);
 }
 
-function add2(obj) {
-    let res = obj.v1 + obj.v2
-    return res    
+//let {a} = o
+// console.log(a)
+
+// for(const [key, val] of Object.entries(o)){
+//     console.log("key:"+ key)
+//     console.log("value:"+ val)
+// }
+
+// let g = [7,8]
+// const [h, j] = g
+
+// console.log(h,j);
+
+//var vs let
+
+let x = 10
+
+if(x > 5){
+    let x = 5
+    console.log(x);
 }
 
-console.log(add1(a,b))
-console.log(add2(o))
-
-let student =  {
-    name: "Zack",
-    major: "CS",
-    second_major: null,
-    printDetails: function () {
-        console.log("name: "+this.name);
-        console.log("major:" + this.major);
-    }
-}
-
-student.printDetails();
-
-let res
-
-console.log(res = console.log("h"))
-
-
-
-if(a > b){
-    res = 1
-} else if (a < b){
-    res = -1
-} else {
-    res = 0
-}
-
-res = a > b ? 1 : (a < b ? -1 : 0)
+console.log(x);
