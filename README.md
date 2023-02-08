@@ -62,3 +62,32 @@ CPTS489M2023 Javascript Demos
                 - [ ] equality and relational operators (<, <=, >, >=)
                 - [ ] JavaScript loose typing
                     - [ ] Strict equality vs loose equality
+
+## Plan for Feb 8th
+- JavaScript the Programming Language (continued)
+    - [ ] Introduce ECMAScript Spec 2023
+    - [ ] Null Type (Answer to question raised in class)
+    - [ ] Discussion on JavaScript Loose Typing (ECMAScript type conversion)
+- Operators
+    - [ ] arithmetic operators: addition, subtraction, multiplication, division and modulo operator
+    - [ ] equality and relational operators (<, <=, >, >=)
+        - [ ] Strict equality vs loose equality
+    - [ ] Introduce Arrow functions
+- [ ] Revisit expressions vs statements
+- Control flow statements
+    - [ ] Conditionals (if, nested-if, if-else-if, switch)
+    - Loops
+        - [ ] While/do-while
+        - [ ] for
+        - [ ] for in
+        - [ ] for of
+        - [ ] break and continue
+- With Statement
+- The JavaScript Global Object
+    - [ ] Node vs Browser (and GlobalThis)
+    - [ ] window object and document
+    - [ ] var vs let (polluting global scope and hoisting)
+- JavaScript variable declaration 
+    - [ ] variable scope and shadowing
+    - [ ] destructuring assignments
+- JavaScript Math Object (and uses)
