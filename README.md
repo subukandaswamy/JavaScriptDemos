@@ -65,29 +65,29 @@ CPTS489M2023 Javascript Demos
 
 ## Plan for Feb 8th
 - JavaScript the Programming Language (continued)
-    - [ ] Introduce ECMAScript Spec 2023
-    - [ ] Null Type (Answer to question raised in class)
-    - [ ] Discussion on JavaScript Loose Typing (ECMAScript type conversion)
+    - [x] Introduce ECMAScript Spec 2023
+    - [x] Null Type (Answer to question raised in class)
+    - [x] Discussion on JavaScript Loose Typing (ECMAScript type conversion)
 - Operators
-    - [ ] arithmetic operators: addition, subtraction, multiplication, division and modulo operator
-    - [ ] equality and relational operators (<, <=, >, >=)
-        - [ ] Strict equality vs loose equality
-    - [ ] Introduce Arrow functions
-- [ ] Revisit expressions vs statements
+    - [x] arithmetic operators: addition, subtraction, multiplication, division and modulo operator
+    - [x] equality and relational operators (<, <=, >, >=)
+        - [x] Strict equality vs loose equality
+    - [x] Introduce Arrow functions
+- [x] Revisit expressions vs statements
 - Control flow statements
-    - [ ] Conditionals (if, nested-if, if-else-if, switch)
+    - [x] Conditionals (if, nested-if, if-else-if, switch)
     - Loops
-        - [ ] While/do-while
-        - [ ] for
-        - [ ] for in
-        - [ ] for of
-        - [ ] break and continue
-- With Statement
+        - [x] While/do-while
+        - [x] for
+        - [x] for in
+        - [x] for of
+        - [x] break and continue
+- [x] with Statement
 - The JavaScript Global Object
     - [ ] Node vs Browser (and GlobalThis)
     - [ ] window object and document
     - [ ] var vs let (polluting global scope and hoisting)
 - JavaScript variable declaration 
-    - [ ] variable scope and shadowing
-    - [ ] destructuring assignments
+    - [x] variable scope and shadowing
+    - [x] destructuring assignments
 - JavaScript Math Object (and uses)
