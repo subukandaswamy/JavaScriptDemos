@@ -86,8 +86,33 @@ CPTS489M2023 Javascript Demos
 - The JavaScript Global Object
     - [ ] Node vs Browser (and GlobalThis)
     - [ ] window object and document
-    - [ ] var vs let (polluting global scope and hoisting)
+    - [X] var vs let (polluting global scope and hoisting)
 - JavaScript variable declaration 
     - [x] variable scope and shadowing
     - [x] destructuring assignments
 - JavaScript Math Object (and uses)
+
+## Plan for Feb 10th
+- The JavaScript Global Object
+    - [ ] Node vs Browser (and GlobalThis)
+    - [ ] window object and document
+    - [ ] A small tour of document API selection
+        - [ ] ID
+        - [ ] Class
+        - [ ] Name
+    - [ ] Use of 'with' on form data
+    - Objects and Prototypes
+        - [ ] Object create (and Object.prototype)
+        - [ ] Can get but not Set (get it!)
+        - [ ] Prototypal inheritance (chain)
+        - [ ] getters and setters
+        - [ ] Exception: accessor property
+        - [ ] Exception: Read only property
+    - [ ] Short circuiting (&&)
+    - [ ] Tips for property access using short circuiting
+    - [ ] Quick intro to JSON and Object serialization using JSON (overriding to JSON)
+    - Useful
+        - [ ] Computed Property Names
+        - [ ] Spread Operator and uses
+        - [ ] Shorthand methods
+
