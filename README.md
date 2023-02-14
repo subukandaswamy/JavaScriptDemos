@@ -94,13 +94,13 @@ CPTS489M2023 Javascript Demos
 
 ## Plan for Feb 10th
 - The JavaScript Global Object
-    - [ ] Node vs Browser (and GlobalThis)
-    - [ ] window object and document
-    - [ ] A small tour of document API selection
-        - [ ] ID
-        - [ ] Class
-        - [ ] Name
-    - [ ] Use of 'with' on form data
+    - [x] Node vs Browser (and GlobalThis)
+    - [x] window object and document
+    - [x] A small tour of document API selection
+        - [x] ID
+        - [x] Class
+        - [x] Name
+    - [x] Use of 'with' on form data
     - Objects and Prototypes
         - [ ] Object create (and Object.prototype)
         - [ ] Can get but not Set (get it!)
@@ -108,11 +108,22 @@ CPTS489M2023 Javascript Demos
         - [ ] getters and setters
         - [ ] Exception: accessor property
         - [ ] Exception: Read only property
-    - [ ] Short circuiting (&&)
-    - [ ] Tips for property access using short circuiting
+    - [x] Short circuiting (&&)
+    - [x] Tips for property access using short circuiting
     - [ ] Quick intro to JSON and Object serialization using JSON (overriding to JSON)
     - Useful
         - [ ] Computed Property Names
         - [ ] Spread Operator and uses
         - [ ] Shorthand methods
+
+## Plan for Feb 13th
+- Object Oriented Programming in JavaScript
+    - [x] Objects everywhere!
+        - [x] defineProperty (enumerable and writable)
+    - [x] function invocation expression and 'this'
+    - [x] methods and 'this'
+    - [x] Constructors
+    - [x] Prototype object
+    - [x] Inheritance (via Conctructors)
+    - [x] ES6 Classes (OOP in Modern JavaScript)
 
