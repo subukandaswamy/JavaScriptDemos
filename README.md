@@ -127,3 +127,10 @@ CPTS489M2023 Javascript Demos
     - [x] Inheritance (via Conctructors)
     - [x] ES6 Classes (OOP in Modern JavaScript)
 
+## Plan for Feb 15th
+- Object Oriented Programming in JavaScript
+    - [x] Closure and how to do private members
+- [x] Private and Static in ES6 classes
+- [x] Our first scheduled quiz!
+
+
