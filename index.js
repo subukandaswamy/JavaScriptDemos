@@ -1,24 +1,7 @@
-// 
+import ValClass, {setval, getval} from './util.js';
 
-class Student {
-    static hello(){
-        console.log("say hello");
-    }
-    #marks
-    constructor(name,major){
-        this.name = name
-        this.major = major
-    }
-    getMarks(){
-        return this.#marks
-    }
-    setMarks(marks){
-        this.#marks = marks
-    }
-}
+let vc = new ValClass(20)
 
-const stud = new Student("Subu","CS")
-stud.name = "Zack"
-stud.setMarks(90)
-console.log(stud.getMarks());
-console.log(Student.hello())
+setval(vc, 30)
+
+console.log(getval(vc));

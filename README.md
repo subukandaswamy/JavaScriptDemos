@@ -133,4 +133,15 @@ CPTS489M2023 Javascript Demos
 - [x] Private and Static in ES6 classes
 - [x] Our first scheduled quiz!
 
+## Plan for Feb 17th
+- Modules in JavaScript
+    - [x] before modularization
+    - [x] CommonJS Modules
+    - [x] ES6 Modules
+- Higher Order Functions in JavaScript
+    - [x] Map
+    - [x] Filter
+    - [x] Reduce
+
+
 
