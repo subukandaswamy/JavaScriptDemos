@@ -143,5 +143,17 @@ CPTS489M2023 Javascript Demos
     - [x] Filter
     - [x] Reduce
 
+# Advanced JavaScript Lectures
+
+## Plan for Mar 24th
+- Promises
+    - [x] Simple intro to async operation using fetch
+    - [x] Mocking fetch using setTimeout
+    - [x] Callback Hell
+    - [x] Promises to the rescue!
+    - [x] Promises internals (Microtask queue)
+    - [x] Async Await
+
+
 
 
