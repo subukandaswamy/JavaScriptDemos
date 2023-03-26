@@ -1,58 +1,57 @@
-function getemail(roll) {
+function getEmail(roll) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            if (roll == '123') {
+            if (roll == "123") {
                 resolve('subu@xyz.com')
             } else {
-                reject('roll does not match')
+                reject("roll does not exist")
             }
-        }, 200)
-    });
+        }, 200);
+    })
 }
 
-
-
-function getnetid(email) {
+function getNetid(email) {
     return new Promise((resolve, reject) => {
-    setTimeout(() => {
-        if (email == 'subu@xyz.com') {
-            resolve('b.kandaswamy')
-        } else {
-            reject('email does not match')
-        }
-    }, 200);
-});
-}
-function getquiz(netid) {
-    return new Promise((resolve, reject) => {
-    setTimeout(() => {
-        if (netid == 'b.kandaswamy') {
-            resolve('15')
-        } else {
-            reject('netid does not match')
-        }
-    }, 200);
-});
+        setTimeout(() => {
+            if (email == "subu@xyz.com") {
+                resolve('b.kandaswamy')
+            } else {
+                reject("email does not exist")
+            }
+        }, 200);
+    })
 }
 
-getemail('1234')
-.then((email) => getnetid(email))
-.catch((err)=> console.log('here'))
-.then((netid)=> getquiz(netid))
-.then((quiz) => console.log(quiz))
-.catch((err)=> console.log(err))
+function getQuiz(netid) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            if (netid == "b.kandaswamy") {
+                resolve(20)
+            } else {
+                reject("netid does not exist")
+            }
+        }, 200);
+    })
+}
+
+// getEmail('123')
+// .then((email)=>getNetid(email))
+// .then((netid)=>getQuiz(netid))
+// .then((quiz)=> console.log("Quiz: "+quiz))
+// .catch((err) =>console.log(err))
 
 async function printquiz() {
     try{
-    let email = await getemail('123')
-    let netid = await getnetid(email)
-    let quiz = await getquiz(netid)
-    console.log(quiz)
+    let email = await getEmail('123')
+    let netid = await getNetid(email)
+    let quiz = await getQuiz(netid)
+    console.log("quiz::"+quiz)
     }catch(err){
         console.log(err);
-    }  
+    }
 }
-// printquiz().then(()=>console.log('done'))
+
+//printquiz().then(()=>console.log('done'))
 
 async function add(x,y) {
     return x + y
@@ -60,15 +59,17 @@ async function add(x,y) {
 
 console.log(add(1,2).then(console.log))
 
-// getemail('123',
+
+
+// CALLBACK HELL!
+// getEmail('123',
 //     (email) => {
-//         getnetid(email,
+//         getNetid(email,
 //             (netid) => {
-//                 getquiz(netid,
-//                     (quiz) => { console.log(quiz) },
+//                 getQuiz(netid,
+//                     (quiz) => { console.log("quiz: " + quiz) },
 //                     (err) => { console.log(err) })
 //             },
 //             (err) => { console.log(err) })
 //     },
-//     (err) => { console.log(err) }
-// )
+//     (err) => { console.log(err) })
